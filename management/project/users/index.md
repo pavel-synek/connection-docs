@@ -47,6 +47,7 @@ There are four user roles available:
     - delete the project,
     - manage users, and
     - manage [API tokens](/management/project/tokens/).
+    - 
 
 _Note: The ReadOnly role is currently available on all stacks for projects with feature `queuev2`_
 
