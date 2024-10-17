@@ -55,6 +55,23 @@ or
 
     No value provided for variable "multiplier".
 
+### Tracking Variable Changes
+Currently, the Keboola UI does not provide a direct link to view variable changes within a transformation. To track changes to transformation variables, you need to manually adjust the URL based on the `variables_id` from the transformation configuration.
+
+**Steps to Track Variable Changes:**
+**1. Locate the** variables_id: Each transformation has an associated `variables_id` that references the configuration of its variables. To find this ID:
+- Navigate to the transformation’s configuration switching to a raw mode.
+- The `variables_id` is located in the settings panel.
+**2. Manually Adjust the URL to Access the Variables Component:** Once you have the variables_id, you can access the Keboola Variables component by modifying the following URL:
+```https://connection.{your-keboola-project-domain}/admin/projects/{project_id}/components/keboola.variables/{variables_id}```
+Replace `{your-keboola-project-domain}`, `{project_id}` and `{variables_id}` with the actual values from your project.
+Example:
+`https://connection.europe-west3.gcp.keboola.com/admin/projects/346/components/keboola.variables/2699227`
+
+**View Configuration Versions:** In the Configuration Versions section of the Keboola Variables component, you can see all historical changes made to the variables. This includes:
+- Timestamps: When the change was made.
+- Details: What was modified (e.g., new values for specific variables).
+- User: Who made the change.
 
 ### Orchestration Usage
 When you use [orchestrations](/orchestrator/) to automate transformations with variables, you can
