@@ -749,3 +749,10 @@ items:
         items:
           - url: /management/telemetry/telemetry-dashboards/
             title: Telemetry Dashboards
+            
+ - url: /ai/
+    title: AI Features
+    items:
+      - url: /ai/mcp-server/
+        title: MCP Server
+
