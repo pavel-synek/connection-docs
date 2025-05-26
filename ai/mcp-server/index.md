@@ -1,4 +1,10 @@
+---
+title: Keboola Model Context Protocol (MCP) Server
+permalink: /ai/mcp-server/
+---
 
+* TOC
+{:toc}
 
 # Keboola Model Context Protocol (MCP) Server  
 **Supercharge your data workflows with AI-powered automation.**
