@@ -16,7 +16,7 @@ Keboola integrates artificial intelligence throughout the platform to enhance pr
 
 ### MCP Server
 
-Model Context Protocol server integration for seamless communication between AI models and your Keboola data infrastructure.
+Model Context Protocol server integration for seamless communication between AI agents and your data infrastructure on Keboola.
 [Learn more about MCP Server →](/ai/mcp-server/)
 
 ### AI Component Suggestions
