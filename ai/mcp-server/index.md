@@ -14,7 +14,7 @@ Keboola's MCP Server brings powerful AI agents like Claude and Cursor directly i
 
 - Search and explore your data.
 - Set up and manage workflows — no code required.
-- Build SQL queries and transformations with AI.
+- Build SQL queries and transformations using AI.
 - Launch and monitor jobs in real time.
 - Automatically document everything — down to the column level.
 
